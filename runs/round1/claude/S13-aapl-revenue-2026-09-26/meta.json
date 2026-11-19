@@ -1,0 +1,56 @@
+{
+  "task": "S13-aapl-revenue-2026-09-26",
+  "vendor": "claude",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "a11b6ef4855c1151a1883a179b45061cb5e192014d9c0a2d4f94e8e5576a6d02",
+  "exit": 0,
+  "seconds": 97.43,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 51013,
+    "cached": 147072,
+    "output": 4020,
+    "cache_write": 0
+  },
+  "cost_usd": 0.12734492,
+  "event_types": {
+    "system": 2326,
+    "assistant": 22,
+    "user": 8,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "f20efb39-446d-4723-8b45-f5d288b2f76d",
+  "answer_bytes": 1693,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 8,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "ToolSearch",
+    "Bash",
+    "WebFetch",
+    "Write"
+  ]
+}

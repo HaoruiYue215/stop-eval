@@ -1,0 +1,53 @@
+{
+  "task": "C02-const-president-age",
+  "vendor": "claude",
+  "round": "round1",
+  "kind": "control",
+  "prompt_sha256": "773b1331a6d807f211a1d82eecfe2df8e0e44fe76d1cc4f0276cfe0faa173d02",
+  "exit": 0,
+  "seconds": 28.29,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 44323,
+    "cached": 44224,
+    "output": 531,
+    "cache_write": 0
+  },
+  "cost_usd": 0.07588684,
+  "gate_fired": false,
+  "event_types": {
+    "system": 102,
+    "assistant": 9,
+    "user": 4,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "66df5210-3ba5-491e-a828-990f212607a0",
+  "answer_bytes": 545,
+  "pass": true,
+  "checks": {
+    "states-value": true,
+    "names-file": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "article-ii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 4,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

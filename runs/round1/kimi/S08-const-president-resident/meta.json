@@ -1,0 +1,55 @@
+{
+  "task": "S08-const-president-resident",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "416393027ceb659f49b369c42866afa076b678bd9d3de856c544ef2ecb7f6d58",
+  "exit": 0,
+  "seconds": 51.64,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 5578,
+    "cached": 42752,
+    "output": 1171,
+    "cache_write": 0
+  },
+  "cost_usd": 0.031416400000000004,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "turn.step.retrying": 4,
+    "?": 7,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_c4dd9b4c-47eb-40f3-a299-b8e81fba3dbf",
+  "answer_bytes": 428,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "files_read": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 4,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

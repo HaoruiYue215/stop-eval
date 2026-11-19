@@ -1,0 +1,63 @@
+{
+  "task": "S17-aapl-assets-2026-09-26",
+  "vendor": "dsh",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "f50980a79f7c7a12685f4bb78c012ccb595c7944129de399910745ef090ee180",
+  "exit": 125,
+  "seconds": 50.79,
+  "killed": "tool-cap",
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 7763,
+    "cached": 121984,
+    "output": 5811,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0050170020000000004,
+  "gate_fired": false,
+  "event_types": {
+    "session": 1,
+    "status": 24,
+    "thinking": 12,
+    "tool_call": 13,
+    "tool_result": 12
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-1ba04a4d-189f-4bc2-9740-3f86aa9b680c",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 13,
+  "tool_names": [
+    "bash",
+    "read",
+    "read",
+    "bash",
+    "bash",
+    "bash",
+    "bash",
+    "bash",
+    "bash",
+    "web_search",
+    "bash",
+    "bash",
+    "bash"
+  ]
+}

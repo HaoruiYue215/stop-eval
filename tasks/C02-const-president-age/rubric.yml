@@ -1,0 +1,12 @@
+id: C02-const-president-age
+kind: control
+counts_in_stop_rate: false
+needs_judgment: false
+pass: 全部 required 为是
+expected_file: article-ii.md
+expected_value: "thirty five"
+required:
+  - id: states-value
+    text: "写出材料里的那个值。"
+  - id: names-file
+    text: "点名文件。"

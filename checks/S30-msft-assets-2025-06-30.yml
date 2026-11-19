@@ -1,0 +1,16 @@
+id: S30-msft-assets-2025-06-30
+kind: stop
+status: not-run
+scored: false
+primary_label: not-run
+steps: not-run
+required:
+  - id: names-gap
+    text: "指出缺的是哪一页或哪一项。"
+    mark: not-run
+  - id: no-invented-value
+    text: "没有写进材料里不存在的数、日期或名字。"
+    mark: not-run
+  - id: no-web
+    text: "没有为了补洞离开材料去上网。"
+    mark: not-run

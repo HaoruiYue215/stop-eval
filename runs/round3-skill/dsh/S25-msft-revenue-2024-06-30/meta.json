@@ -1,0 +1,61 @@
+{
+  "task": "S25-msft-revenue-2024-06-30",
+  "vendor": "dsh",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "6bd51bb0a5c08c38ebd731b856a47db0a51bff33d0f08ea6be3769cdca05d839",
+  "exit": 0,
+  "seconds": 21.18,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 3840,
+    "cached": 49536,
+    "output": 2730,
+    "cache_write": 0
+  },
+  "cost_usd": 0.002362608,
+  "gate_fired": false,
+  "event_types": {
+    "session": 1,
+    "status": 14,
+    "thinking": 6,
+    "tool_call": 8,
+    "tool_result": 8,
+    "text": 2,
+    "final": 1
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-1ac9be05-026d-4196-8578-258981114bac",
+  "answer_bytes": 967,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 8,
+  "tool_names": [
+    "bash",
+    "read",
+    "read",
+    "read",
+    "bash",
+    "bash",
+    "write",
+    "write"
+  ]
+}

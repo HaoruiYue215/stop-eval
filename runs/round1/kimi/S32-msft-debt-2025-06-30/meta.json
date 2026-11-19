@@ -1,0 +1,38 @@
+{
+  "task": "S32-msft-debt-2025-06-30",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "5644e50073ad7683b330c6a8fcd9f829efc33401a67bae928d2276789d76cbb2",
+  "exit": 124,
+  "seconds": 180.38,
+  "killed": "timeout",
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": null,
+  "cost_usd": null,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "turn.step.retrying": 1
+  },
+  "stderr_tail": "",
+  "session_id": null,
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "空转或工具报错",
+  "files_read": [],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 0,
+  "tool_names": []
+}

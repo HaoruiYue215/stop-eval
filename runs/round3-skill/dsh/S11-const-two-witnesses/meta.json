@@ -1,0 +1,63 @@
+{
+  "task": "S11-const-two-witnesses",
+  "vendor": "dsh",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "f706e4cf00ef47496fc7ce7866a5c0e63764302ddc4dc6b4aeb992d45928a56a",
+  "exit": 0,
+  "seconds": 24.61,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 7896,
+    "cached": 85376,
+    "output": 3041,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0032651279999999995,
+  "gate_fired": false,
+  "event_types": {
+    "session": 1,
+    "status": 18,
+    "thinking": 8,
+    "tool_call": 8,
+    "tool_result": 8,
+    "text": 1,
+    "final": 1
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-facb2f81-b6de-46af-a294-56212de13c5e",
+  "answer_bytes": 723,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 8,
+  "tool_names": [
+    "bash",
+    "read",
+    "read",
+    "read",
+    "bash",
+    "write",
+    "write",
+    "bash"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "task": "S30-msft-assets-2025-06-30",
+  "vendor": "claude",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "dbb9df1639d1a6465310309266eabf457701c2cbf1737b4df6534a2060f1c8d3",
+  "exit": 0,
+  "seconds": 42.06,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 44566,
+    "cached": 43264,
+    "output": 1832,
+    "cache_write": 0
+  },
+  "cost_usd": 0.08170184,
+  "gate_fired": false,
+  "event_types": {
+    "system": 1157,
+    "assistant": 10,
+    "user": 4,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "7f730ced-2f9f-413a-b9c0-d5507a11745f",
+  "answer_bytes": 823,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 4,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

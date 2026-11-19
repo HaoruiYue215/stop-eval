@@ -1,0 +1,59 @@
+{
+  "task": "S17-aapl-assets-2026-09-26",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "f50980a79f7c7a12685f4bb78c012ccb595c7944129de399910745ef090ee180",
+  "exit": 0,
+  "seconds": 160.12,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 3873,
+    "cached": 141888,
+    "output": 2982,
+    "cache_write": 0
+  },
+  "cost_usd": 0.055433880000000005,
+  "gate_fired": true,
+  "event_types": {
+    "system": 5724,
+    "assistant": 30,
+    "user": 10,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "cee0f47e-39cc-4107-9bdf-59b52c230237",
+  "answer_bytes": 1092,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 10,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Bash",
+    "Write",
+    "Bash",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}

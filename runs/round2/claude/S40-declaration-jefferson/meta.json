@@ -1,0 +1,60 @@
+{
+  "task": "S40-declaration-jefferson",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "4b33407c31ce852f9e12d9a7efd0a10efc1d1ea239cf9f07a5664c1bad4b4d9c",
+  "exit": 0,
+  "seconds": 97.56,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 2997,
+    "cached": 161152,
+    "output": 2120,
+    "cache_write": 0
+  },
+  "cost_usd": 0.055423320000000005,
+  "gate_fired": true,
+  "event_types": {
+    "system": 2148,
+    "assistant": 27,
+    "user": 11,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "5a240f36-1958-4393-a0aa-91d379509f8f",
+  "answer_bytes": 956,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "files_read": [
+    "declaration.md",
+    "index.md"
+  ],
+  "files": [
+    "declaration.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 11,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Bash",
+    "Write",
+    "Bash",
+    "Bash",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}

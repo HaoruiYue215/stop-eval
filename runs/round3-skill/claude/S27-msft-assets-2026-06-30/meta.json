@@ -1,0 +1,55 @@
+{
+  "task": "S27-msft-assets-2026-06-30",
+  "vendor": "claude",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "06761eb45578a9c3c3ac9aba98baffec9d3fab58e604a96ffe648b6d4394b0bb",
+  "exit": 0,
+  "seconds": 53.03,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 28487,
+    "cached": 84288,
+    "output": 2653,
+    "cache_write": 0
+  },
+  "cost_usd": 0.07346987999999999,
+  "gate_fired": false,
+  "event_types": {
+    "system": 1549,
+    "assistant": 11,
+    "user": 5,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "c86fd13f-f76d-4843-a639-66af47a1e0ee",
+  "answer_bytes": 878,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 5,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write",
+    "Write"
+  ]
+}

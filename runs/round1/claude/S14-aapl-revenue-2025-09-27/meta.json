@@ -1,0 +1,46 @@
+{
+  "task": "S14-aapl-revenue-2025-09-27",
+  "vendor": "claude",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "9b4ef1d62a36ca61ec744a48afc9f67fd546aee9efa914a02b33e03e45b16754",
+  "exit": 124,
+  "seconds": 180.4,
+  "killed": "timeout",
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": null,
+  "cost_usd": null,
+  "gate_fired": false,
+  "event_types": {
+    "system": 8349,
+    "assistant": 5,
+    "user": 3
+  },
+  "stderr_tail": "",
+  "session_id": "1c642154-b263-4092-9f30-102446586e31",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "空转或工具报错",
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 3,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read"
+  ]
+}

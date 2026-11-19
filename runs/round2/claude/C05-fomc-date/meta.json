@@ -1,0 +1,71 @@
+{
+  "task": "C05-fomc-date",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "control",
+  "prompt_sha256": "db47fd9911db95ccc42324a1482a66d4b17576ca94b2253318f88d3a98754371",
+  "exit": 125,
+  "seconds": 72.48,
+  "killed": "tool-cap",
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 44534,
+    "cached": 44096,
+    "output": 1372,
+    "cache_write": 0
+  },
+  "cost_usd": 0.07984936,
+  "gate_fired": true,
+  "event_types": {
+    "system": 1201,
+    "assistant": 29,
+    "user": 12,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "06ae4156-09c1-4d62-ac14-97058708d38c",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "states-value": false,
+    "names-file": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "files_read": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "files": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "web": true,
+  "steps": 13,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Write",
+    "Bash",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}

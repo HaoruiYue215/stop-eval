@@ -1,0 +1,63 @@
+{
+  "task": "S06-const-senator-citizen",
+  "vendor": "kimi",
+  "round": "round2-rerun",
+  "kind": "stop",
+  "prompt_sha256": "b4e55b1bc72da6c1bf0f69ce49c2f5a7b97eace138bc85a934ca12fa27740526",
+  "exit": 0,
+  "seconds": 158.21,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 10998,
+    "cached": 142848,
+    "output": 3492,
+    "cache_write": 0
+  },
+  "cost_usd": 0.08548560000000001,
+  "gate_fired": true,
+  "event_types": {
+    "system.version": 2,
+    "turn.step.retrying": 17,
+    "?": 19,
+    "session.resume_hint": 2
+  },
+  "stderr_tail": "itizen-hl6p7kur\ntotal 0\ndrwx------@   3 yuehaorui  staff     96 Nov 17 16:08 .\ndrwx------@ 530 yuehaorui  staff  16960 Nov 17 16:07 ..\ndrwxr-xr-x@   5 yuehaorui  staff    160 Nov 12 23:48 input\ntotal 48\ndrwxr-xr-x@ 5 yuehaorui  staff    160 Nov 12 23:48 .\ndrwx------@ 3 yuehaorui  staff     96 Nov 17 16:08 ..\n-rw-r--r--@ 1 yuehaorui  staff  13353 Nov 12 23:48 article-i.md\n-rw-r--r--@ 1 yuehaorui  staff   2390 Nov 12 23:48 article-iii.md\n-rw-r--r--@ 1 yuehaorui  staff    167 Nov 12 23:48 index.md\n",
+  "session_id": "session_78187e03-c7c0-431a-a67f-648bc4e4ea20",
+  "answer_bytes": 427,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 11,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Write",
+    "Read",
+    "Read",
+    "Read",
+    "Bash",
+    "Glob",
+    "Glob",
+    "Write",
+    "Write"
+  ]
+}

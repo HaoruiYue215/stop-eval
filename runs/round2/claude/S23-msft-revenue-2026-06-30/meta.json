@@ -1,0 +1,55 @@
+{
+  "task": "S23-msft-revenue-2026-06-30",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "0be0db2e6a02e7096fd4daf8b322630e7cc681f2801f46acfcd56e9066936f47",
+  "exit": 0,
+  "seconds": 50.97,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 1235,
+    "cached": 68992,
+    "output": 792,
+    "cache_write": 0
+  },
+  "cost_usd": 0.02315172,
+  "gate_fired": true,
+  "event_types": {
+    "system": 886,
+    "assistant": 18,
+    "user": 6,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "6d888ed6-b062-4771-9a73-8d2ea35b9ca7",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 6,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write",
+    "Bash",
+    "Write"
+  ]
+}

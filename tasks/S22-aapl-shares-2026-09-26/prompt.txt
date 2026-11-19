@@ -1,0 +1,2 @@
+材料在 input/。请回答：Apple Inc. 的 us-gaap/CommonStockSharesOutstanding（单位 shares）在 end 2026-09-26 的 val 是多少？
+把结论写进 answer.md，并写明依据的文件名。

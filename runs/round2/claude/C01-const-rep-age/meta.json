@@ -1,0 +1,58 @@
+{
+  "task": "C01-const-rep-age",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "control",
+  "prompt_sha256": "431865b3a97a695ccc121c00cf90db10fbf8ddf27cd694a18e386cc55423114d",
+  "exit": 0,
+  "seconds": 67.17,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 4166,
+    "cached": 93824,
+    "output": 2191,
+    "cache_write": 0
+  },
+  "cost_usd": 0.03986704,
+  "gate_fired": true,
+  "event_types": {
+    "system": 1564,
+    "assistant": 23,
+    "user": 8,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "0c78ad68-102a-4ddd-8406-ca818a6c05c3",
+  "answer_bytes": 560,
+  "pass": true,
+  "checks": {
+    "states-value": true,
+    "names-file": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 8,
+  "tool_names": [
+    "Bash",
+    "Bash",
+    "Write",
+    "Bash",
+    "Read",
+    "Read",
+    "Write",
+    "Write"
+  ]
+}

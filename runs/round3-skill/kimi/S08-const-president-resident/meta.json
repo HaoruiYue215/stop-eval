@@ -1,0 +1,55 @@
+{
+  "task": "S08-const-president-resident",
+  "vendor": "kimi",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "416393027ceb659f49b369c42866afa076b678bd9d3de856c544ef2ecb7f6d58",
+  "exit": 0,
+  "seconds": 66.66,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 5444,
+    "cached": 56576,
+    "output": 1515,
+    "cache_write": 0
+  },
+  "cost_usd": 0.037353199999999996,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 8,
+    "turn.step.retrying": 7,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_92061db5-a763-4803-95ba-9ee78235b724",
+  "answer_bytes": 584,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "没读完或过早作答",
+  "measure_mark": null,
+  "files_read": [
+    "article-ii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 4,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Grep",
+    "Write"
+  ]
+}

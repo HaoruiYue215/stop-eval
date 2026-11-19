@@ -1,0 +1,39 @@
+{
+  "task": "S20-aapl-net-income-2024-09-28",
+  "vendor": "kimi",
+  "round": "round2-rerun",
+  "kind": "stop",
+  "prompt_sha256": "65c0c85d4ff9d15d7fbbc476779ba908ad664bdace02f8035a96f64c2edba9fa",
+  "exit": 1,
+  "seconds": 11.06,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": null,
+  "cost_usd": null,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "turn.step.retrying": 9
+  },
+  "stderr_tail": "error: failed to run prompt: provider.rate_limit: Your account org-fa5c99801bc64fb5a32763b70528bc6e<[redacted]> request reached organization max RPM: 3, please try again after 1 seconds\nSee log: /Users/yuehaorui/.kimi-code/logs/kimi-code.log\n",
+  "session_id": null,
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "空转或工具报错",
+  "measure_mark": null,
+  "files_read": [],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 0,
+  "tool_names": []
+}

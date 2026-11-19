@@ -1,0 +1,70 @@
+{
+  "task": "S33-fomc-target-range",
+  "vendor": "claude",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "6db3328a535170ad4b91599f26f937b7676542040ec6dc5c1fc08a5c82ba5d8f",
+  "exit": 0,
+  "seconds": 95.97,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 47237,
+    "cached": 44800,
+    "output": 3997,
+    "cache_write": 0
+  },
+  "cost_usd": 0.09536660000000001,
+  "gate_fired": false,
+  "event_types": {
+    "system": 2489,
+    "assistant": 18,
+    "user": 10,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "605d7f80-285d-4c94-85a6-445db0be708a",
+  "answer_bytes": 909,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "files": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "web": false,
+  "steps": 10,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Write",
+    "Write"
+  ]
+}

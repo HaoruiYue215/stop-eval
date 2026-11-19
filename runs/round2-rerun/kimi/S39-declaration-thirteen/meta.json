@@ -1,0 +1,39 @@
+{
+  "task": "S39-declaration-thirteen",
+  "vendor": "kimi",
+  "round": "round2-rerun",
+  "kind": "stop",
+  "prompt_sha256": "52ff8c2aa5c8ccc241ce07371dd04ee084e27ba7545d0143b0dd152e582e842b",
+  "exit": 124,
+  "seconds": 180.39,
+  "killed": "timeout",
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": null,
+  "cost_usd": null,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "turn.step.retrying": 1
+  },
+  "stderr_tail": "",
+  "session_id": null,
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "measure_mark": "闸把命令行卡死",
+  "files_read": [],
+  "files": [
+    "declaration.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 0,
+  "tool_names": []
+}

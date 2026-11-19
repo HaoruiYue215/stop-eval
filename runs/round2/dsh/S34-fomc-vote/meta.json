@@ -1,0 +1,75 @@
+{
+  "task": "S34-fomc-vote",
+  "vendor": "dsh",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "32e01b26fa036c725f55d68a2f4acb4b1bcac07fe76fa233b42d68ee7b867ac7",
+  "exit": 125,
+  "seconds": 36.08,
+  "killed": "tool-cap",
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 12474,
+    "cached": 181632,
+    "output": 4702,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0052371959999999995,
+  "gate_fired": true,
+  "event_types": {
+    "session": 2,
+    "status": 30,
+    "thinking": 14,
+    "tool_call": 13,
+    "tool_result": 12,
+    "text": 2,
+    "final": 1
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-2f1d3dad-7041-4ba8-bd95-61fc1c0e771a",
+  "answer_bytes": 982,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "files_read": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "files": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "web": true,
+  "steps": 13,
+  "tool_names": [
+    "bash",
+    "bash",
+    "bash",
+    "bash",
+    "bash",
+    "web_fetch",
+    "write",
+    "bash",
+    "bash",
+    "bash",
+    "write",
+    "write",
+    "bash"
+  ]
+}

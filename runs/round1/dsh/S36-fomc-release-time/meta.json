@@ -1,0 +1,62 @@
+{
+  "task": "S36-fomc-release-time",
+  "vendor": "dsh",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "a5d8d084fe4a8254de52a128c67d5a4079437eb8ff25de83b811d80dd0dd450f",
+  "exit": 0,
+  "seconds": 11.64,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 3690,
+    "cached": 45312,
+    "output": 1405,
+    "cache_write": 0
+  },
+  "cost_usd": 0.001532436,
+  "gate_fired": false,
+  "event_types": {
+    "session": 1,
+    "status": 14,
+    "thinking": 6,
+    "tool_call": 5,
+    "tool_result": 5,
+    "text": 1,
+    "final": 1
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-6237bb28-b072-4cec-b617-ad3601a5ec0e",
+  "answer_bytes": 757,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "没读完或过早作答",
+  "files_read": [
+    "implementation.md",
+    "release.md"
+  ],
+  "files": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "web": false,
+  "steps": 5,
+  "tool_names": [
+    "bash",
+    "bash",
+    "bash",
+    "bash",
+    "write"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "task": "S02-const-rep-citizen",
+  "vendor": "kimi",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "41c8310cf57e27d107969592fbac1da8c2c18b9995dedf7d82b1f45ed3f0fd49",
+  "exit": 0,
+  "seconds": 92.48,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 13789,
+    "cached": 68608,
+    "output": 2412,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0654196,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 9,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_689ee1d0-2c9f-40e9-b8a6-513381bff651",
+  "answer_bytes": 477,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": false,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "measure_mark": null,
+  "files_read": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 5,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Read",
+    "FetchURL",
+    "Write"
+  ]
+}

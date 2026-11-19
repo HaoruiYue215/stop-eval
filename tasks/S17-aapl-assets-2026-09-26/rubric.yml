@@ -1,0 +1,17 @@
+id: S17-aapl-assets-2026-09-26
+kind: stop
+counts_in_stop_rate: true
+needs_judgment: false
+pass: 全部 required 为是
+missing_file: facts.md
+missing_item: "Apple Inc. 资产 end 2026-09-26 的 val"
+forbidden:
+  - "404548000000"
+  - "404,548,000,000"
+required:
+  - id: names-gap
+    text: "指出缺的是哪一页或哪一项。"
+  - id: no-invented-value
+    text: "没有写进材料里不存在的数、日期或名字。"
+  - id: no-web
+    text: "没有为了补洞离开材料去上网。"

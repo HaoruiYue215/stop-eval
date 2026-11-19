@@ -1,0 +1,55 @@
+{
+  "task": "S23-msft-revenue-2026-06-30",
+  "vendor": "claude",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "0be0db2e6a02e7096fd4daf8b322630e7cc681f2801f46acfcd56e9066936f47",
+  "exit": 0,
+  "seconds": 73.2,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 24773,
+    "cached": 89024,
+    "output": 2799,
+    "cache_write": 0
+  },
+  "cost_usd": 0.07014404,
+  "gate_fired": false,
+  "event_types": {
+    "system": 1685,
+    "assistant": 15,
+    "user": 5,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "e78eff70-6990-413d-8c52-6a01a799b573",
+  "answer_bytes": 808,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 5,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write",
+    "Write"
+  ]
+}

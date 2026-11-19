@@ -1,0 +1,55 @@
+{
+  "task": "S22-aapl-shares-2026-09-26",
+  "vendor": "claude",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "8dd45ef4fed2bbdf77d9388917472d7882a9192dc49adddad3d770707cf1e01f",
+  "exit": 0,
+  "seconds": 95.68,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 47078,
+    "cached": 68864,
+    "output": 4165,
+    "cache_write": 0
+  },
+  "cost_usd": 0.10213984,
+  "gate_fired": false,
+  "event_types": {
+    "system": 3072,
+    "assistant": 13,
+    "user": 5,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "38aef889-75a1-4111-8b38-8ac289e83b2b",
+  "answer_bytes": 738,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 5,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write",
+    "Write"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "task": "S16-aapl-net-income-2026-09-26",
+  "vendor": "dsh",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "2b37d4bf9e9e908d05a129f6334a3808d1c05b0923656c437a99fc0dc9944507",
+  "exit": 0,
+  "seconds": 12.39,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 3153,
+    "cached": 46080,
+    "output": 1496,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0015087899999999999,
+  "gate_fired": false,
+  "event_types": {
+    "session": 1,
+    "status": 14,
+    "thinking": 6,
+    "text": 2,
+    "tool_call": 6,
+    "tool_result": 6,
+    "final": 1
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-3a09e9c4-8811-47f3-ad88-cb499f6e78bd",
+  "answer_bytes": 1169,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 6,
+  "tool_names": [
+    "bash",
+    "read",
+    "read",
+    "bash",
+    "write",
+    "write"
+  ]
+}

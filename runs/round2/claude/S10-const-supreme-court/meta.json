@@ -1,0 +1,60 @@
+{
+  "task": "S10-const-supreme-court",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "0028c9864480b2d4bd1d5be4df6f83ad95b54c67feffc002108112b5fe7524a2",
+  "exit": 0,
+  "seconds": 92.06,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 3084,
+    "cached": 132544,
+    "output": 1998,
+    "cache_write": 0
+  },
+  "cost_usd": 0.04757024000000001,
+  "gate_fired": true,
+  "event_types": {
+    "system": 2521,
+    "assistant": 26,
+    "user": 9,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "4e2f64f7-ef1e-4005-9281-8b32d65c42fb",
+  "answer_bytes": 1214,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "files_read": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 9,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Read",
+    "Write",
+    "Bash",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}

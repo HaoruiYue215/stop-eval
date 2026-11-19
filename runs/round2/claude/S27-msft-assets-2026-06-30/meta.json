@@ -1,0 +1,61 @@
+{
+  "task": "S27-msft-assets-2026-06-30",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "06761eb45578a9c3c3ac9aba98baffec9d3fab58e604a96ffe648b6d4394b0bb",
+  "exit": 0,
+  "seconds": 81.38,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 3177,
+    "cached": 104064,
+    "output": 1921,
+    "cache_write": 0
+  },
+  "cost_usd": 0.039956839999999993,
+  "gate_fired": true,
+  "event_types": {
+    "system": 2160,
+    "assistant": 28,
+    "user": 12,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "46e0fb20-2c44-4ef8-b1f2-756d8044d532",
+  "answer_bytes": 1043,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 12,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Bash",
+    "Write",
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}

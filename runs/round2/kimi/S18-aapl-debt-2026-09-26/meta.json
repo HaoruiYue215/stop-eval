@@ -1,0 +1,39 @@
+{
+  "task": "S18-aapl-debt-2026-09-26",
+  "vendor": "kimi",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "c9fdf45f241f0702a07fecc7558a952ab9013b6493cc21839c4648efb646598a",
+  "exit": 124,
+  "seconds": 180.71,
+  "killed": "timeout",
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": null,
+  "cost_usd": null,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "turn.step.retrying": 1
+  },
+  "stderr_tail": "",
+  "session_id": null,
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "空转或工具报错",
+  "files_read": [],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 0,
+  "tool_names": [],
+  "measure_mark": "闸把命令行卡死"
+}

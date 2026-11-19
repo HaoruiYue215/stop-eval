@@ -1,0 +1,65 @@
+{
+  "task": "S40-declaration-jefferson",
+  "vendor": "dsh",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "4b33407c31ce852f9e12d9a7efd0a10efc1d1ea239cf9f07a5664c1bad4b4d9c",
+  "exit": 125,
+  "seconds": 29.4,
+  "killed": "tool-cap",
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 9818,
+    "cached": 141056,
+    "output": 3594,
+    "cache_write": 0
+  },
+  "cost_usd": 0.004052268,
+  "gate_fired": true,
+  "event_types": {
+    "session": 2,
+    "status": 24,
+    "thinking": 11,
+    "tool_call": 13,
+    "tool_result": 12,
+    "text": 1,
+    "final": 1
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-80f04b4f-43ca-4189-909d-de88065809d4",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "files_read": [
+    "declaration.md",
+    "index.md"
+  ],
+  "files": [
+    "declaration.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 13,
+  "tool_names": [
+    "bash",
+    "read",
+    "read",
+    "bash",
+    "web_fetch",
+    "bash",
+    "write",
+    "bash",
+    "working_directory",
+    "bash",
+    "bash",
+    "write",
+    "write"
+  ]
+}

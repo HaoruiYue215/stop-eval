@@ -1,0 +1,55 @@
+{
+  "task": "S05-const-senator-age",
+  "vendor": "kimi",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "142cc2143cbc9ab1b098010fd62e12bf71e8f9718bcf1b71971f4d45e9cacde6",
+  "exit": 0,
+  "seconds": 37.46,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 5959,
+    "cached": 58880,
+    "output": 789,
+    "cache_write": 0
+  },
+  "cost_usd": 0.031584,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 8,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_27e7417e-b1e7-47e4-8763-41e00281fd45",
+  "answer_bytes": 293,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 4,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "models": {},
+  "patch": "gate",
+  "downgrade": {
+    "applied": false,
+    "reason": "一题外推 ×30 合计未超过 50 美元",
+    "x30_sum": 5.21484978,
+    "note": "dsh 已是 deepseek-flash。Kimi 公开价没有更低的 flash 档。"
+  },
+  "probe": {
+    "task": "S13-aapl-revenue-2026-09-26",
+    "x30": {
+      "dsh": 0.05347818,
+      "kimi": 1.3410240000000002,
+      "claude": 3.8203476
+    },
+    "models": {
+      "dsh": "deepseek-flash",
+      "kimi": "kimi-k3.1-pro",
+      "claude": "glm-5.3"
+    },
+    "x30_sum": 5.21484978
+  },
+  "stop": null,
+  "round1_counts": {
+    "labels": {
+      "任务不该自动化": 0,
+      "工具不该这么接": 60,
+      "模型不会": 29
+    },
+    "buckets": {
+      "上网": 40,
+      "空转或工具报错": 16,
+      "没读完或过早作答": 4
+    },
+    "webspin": 56,
+    "unread": 4
+  }
+}

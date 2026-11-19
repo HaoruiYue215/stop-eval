@@ -1,0 +1,56 @@
+{
+  "task": "S02-const-rep-citizen",
+  "vendor": "claude",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "41c8310cf57e27d107969592fbac1da8c2c18b9995dedf7d82b1f45ed3f0fd49",
+  "exit": 0,
+  "seconds": 84.39,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 26766,
+    "cached": 118720,
+    "output": 1805,
+    "cache_write": 0
+  },
+  "cost_usd": 0.07628159999999999,
+  "gate_fired": false,
+  "event_types": {
+    "system": 809,
+    "assistant": 15,
+    "user": 6,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "9c36f096-484b-425a-ba0c-4e1cb030a768",
+  "answer_bytes": 1159,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "没读完或过早作答",
+  "files_read": [
+    "article-i.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 6,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Bash",
+    "Write"
+  ]
+}

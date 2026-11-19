@@ -1,0 +1,54 @@
+{
+  "task": "C07-declaration-date",
+  "vendor": "claude",
+  "round": "round3-skill",
+  "kind": "control",
+  "prompt_sha256": "01e478490ba6530db286cbcc10cbd27dbd3421b1637e324049d0b8f5f3facc7b",
+  "exit": 0,
+  "seconds": 33.05,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 46023,
+    "cached": 69696,
+    "output": 1064,
+    "cache_write": 0
+  },
+  "cost_usd": 0.08723476000000001,
+  "gate_fired": false,
+  "event_types": {
+    "system": 438,
+    "assistant": 11,
+    "user": 5,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "1d5fddf5-d5cd-4950-8087-04b0d47a359a",
+  "answer_bytes": 411,
+  "pass": true,
+  "checks": {
+    "states-value": true,
+    "names-file": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "declaration.md",
+    "index.md"
+  ],
+  "files": [
+    "declaration.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 5,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write",
+    "Write"
+  ]
+}

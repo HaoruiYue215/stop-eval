@@ -1,0 +1,53 @@
+{
+  "task": "S32-msft-debt-2025-06-30",
+  "vendor": "claude",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "5644e50073ad7683b330c6a8fcd9f829efc33401a67bae928d2276789d76cbb2",
+  "exit": 0,
+  "seconds": 31.54,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 43935,
+    "cached": 43520,
+    "output": 1544,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0796178,
+  "gate_fired": false,
+  "event_types": {
+    "system": 532,
+    "assistant": 10,
+    "user": 4,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "e1970607-4138-4c5a-819f-e13685b7da55",
+  "answer_bytes": 1489,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 4,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

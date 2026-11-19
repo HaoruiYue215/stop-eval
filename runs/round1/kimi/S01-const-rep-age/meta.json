@@ -1,0 +1,54 @@
+{
+  "task": "S01-const-rep-age",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "431865b3a97a695ccc121c00cf90db10fbf8ddf27cd694a18e386cc55423114d",
+  "exit": 0,
+  "seconds": 28.22,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 19973,
+    "cached": 33024,
+    "output": 854,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0550908,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 7,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_01617c21-fac4-4eb0-8875-d0f697dcf73e",
+  "answer_bytes": 388,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 4,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

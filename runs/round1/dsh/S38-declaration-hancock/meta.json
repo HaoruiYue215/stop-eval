@@ -1,0 +1,58 @@
+{
+  "task": "S38-declaration-hancock",
+  "vendor": "dsh",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "4ecb54cf95751a70590434f95ed1b28663829f36460f0385e4dac35911606008",
+  "exit": 0,
+  "seconds": 19.17,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 8704,
+    "cached": 45312,
+    "output": 2196,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0027591359999999997,
+  "gate_fired": false,
+  "event_types": {
+    "session": 1,
+    "status": 12,
+    "thinking": 5,
+    "tool_call": 6,
+    "tool_result": 6,
+    "text": 1,
+    "final": 1
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-2581a087-d8a5-44c7-979d-1705ef1e84d2",
+  "answer_bytes": 1147,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "files_read": [
+    "declaration.md",
+    "index.md"
+  ],
+  "files": [
+    "declaration.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 6,
+  "tool_names": [
+    "bash",
+    "read",
+    "read",
+    "bash",
+    "web_fetch",
+    "write"
+  ]
+}

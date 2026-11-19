@@ -1,0 +1,13 @@
+id: C05-fomc-date
+kind: control
+status: not-run
+scored: false
+primary_label: not-run
+steps: not-run
+required:
+  - id: states-value
+    text: "写出材料里的那个值。"
+    mark: not-run
+  - id: names-file
+    text: "点名文件。"
+    mark: not-run

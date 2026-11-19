@@ -1,0 +1,54 @@
+{
+  "task": "S03-const-two-senators",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "2ae8135e573d1df18ab905df6743d357796054981b1a84031c095343d9080e1a",
+  "exit": 0,
+  "seconds": 36.5,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 7894,
+    "cached": 45312,
+    "output": 1061,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0354604,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 7,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_c75ae07e-3018-4c98-9d94-7ffcdf63c73a",
+  "answer_bytes": 581,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 4,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

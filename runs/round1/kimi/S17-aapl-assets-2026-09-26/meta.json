@@ -1,0 +1,51 @@
+{
+  "task": "S17-aapl-assets-2026-09-26",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "f50980a79f7c7a12685f4bb78c012ccb595c7944129de399910745ef090ee180",
+  "exit": 0,
+  "seconds": 21.97,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 3231,
+    "cached": 41472,
+    "output": 715,
+    "cache_write": 0
+  },
+  "cost_usd": 0.021906400000000003,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 6,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_2c1e5778-fa62-4d16-b76f-bbda8cda133f",
+  "answer_bytes": 237,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 3,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

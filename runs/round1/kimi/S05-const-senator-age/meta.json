@@ -1,0 +1,55 @@
+{
+  "task": "S05-const-senator-age",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "142cc2143cbc9ab1b098010fd62e12bf71e8f9718bcf1b71971f4d45e9cacde6",
+  "exit": 0,
+  "seconds": 44.04,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 13419,
+    "cached": 68864,
+    "output": 1401,
+    "cache_write": 0
+  },
+  "cost_usd": 0.054620800000000004,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 9,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_9c52d936-0988-4c93-8c2f-1f2d52a85084",
+  "answer_bytes": 462,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "files_read": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 5,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Read",
+    "FetchURL",
+    "Write"
+  ]
+}

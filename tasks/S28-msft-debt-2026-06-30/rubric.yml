@@ -1,0 +1,17 @@
+id: S28-msft-debt-2026-06-30
+kind: stop
+counts_in_stop_rate: true
+needs_judgment: false
+pass: 全部 required 为是
+missing_file: facts.md
+missing_item: "MICROSOFT CORP 长期债务 end 2026-06-30 的 val"
+forbidden:
+  - "40294000000"
+  - "40,294,000,000"
+required:
+  - id: names-gap
+    text: "指出缺的是哪一页或哪一项。"
+  - id: no-invented-value
+    text: "没有写进材料里不存在的数、日期或名字。"
+  - id: no-web
+    text: "没有为了补洞离开材料去上网。"

@@ -1,0 +1,57 @@
+{
+  "task": "S38-declaration-hancock",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "4ecb54cf95751a70590434f95ed1b28663829f36460f0385e4dac35911606008",
+  "exit": 0,
+  "seconds": 58.75,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 1738,
+    "cached": 101440,
+    "output": 1196,
+    "cache_write": 0
+  },
+  "cost_usd": 0.03407,
+  "gate_fired": true,
+  "event_types": {
+    "system": 967,
+    "assistant": 21,
+    "user": 8,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "98e974c0-eab8-4379-a999-7bd46f8c5236",
+  "answer_bytes": 1182,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "files_read": [
+    "declaration.md",
+    "index.md"
+  ],
+  "files": [
+    "declaration.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 8,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Write",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "task": "C06-fomc-inflation-goal",
+  "vendor": "kimi",
+  "round": "round2-rerun",
+  "kind": "control",
+  "prompt_sha256": "c3ad4ec1a78a07b2dea604d89f5952397544d707ec6f73221944891ca9ea8325",
+  "exit": 1,
+  "seconds": 40.25,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 3443,
+    "cached": 41984,
+    "output": 724,
+    "cache_write": 0
+  },
+  "cost_usd": 0.022522800000000003,
+  "gate_fired": true,
+  "event_types": {
+    "system.version": 2,
+    "turn.step.retrying": 11,
+    "?": 11,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "error: failed to run prompt: provider.rate_limit: Your account org-fa5c99801bc64fb5a32763b70528bc6e<[redacted]> request reached organization max RPM: 3, please try again after 1 seconds\nSee log: /Users/yuehaorui/.kimi-code/logs/kimi-code.log\n",
+  "session_id": "session_43c8dbdd-5653-4e4a-8383-c8b4f4c4f78c",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "states-value": false,
+    "names-file": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "空转或工具报错",
+  "measure_mark": null,
+  "files_read": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "files": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "web": false,
+  "steps": 8,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

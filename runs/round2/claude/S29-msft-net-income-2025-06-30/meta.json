@@ -1,0 +1,57 @@
+{
+  "task": "S29-msft-net-income-2025-06-30",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "64d2b4c39fe015b3c6a91725ba6251d79fbd8740e7d73d31c25b411222b6659b",
+  "exit": 0,
+  "seconds": 79.48,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 2354,
+    "cached": 131136,
+    "output": 1649,
+    "cache_write": 0
+  },
+  "cost_usd": 0.044646559999999995,
+  "gate_fired": true,
+  "event_types": {
+    "system": 3451,
+    "assistant": 19,
+    "user": 8,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "21d1f64a-01d9-4140-8fdd-f46155fa94a9",
+  "answer_bytes": 1301,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 8,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write",
+    "Bash",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}

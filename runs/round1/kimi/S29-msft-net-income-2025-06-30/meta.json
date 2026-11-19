@@ -1,0 +1,51 @@
+{
+  "task": "S29-msft-net-income-2025-06-30",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "64d2b4c39fe015b3c6a91725ba6251d79fbd8740e7d73d31c25b411222b6659b",
+  "exit": 0,
+  "seconds": 67.99,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 4581,
+    "cached": 41472,
+    "output": 2044,
+    "cache_write": 0
+  },
+  "cost_usd": 0.037896400000000004,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 6,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_094f25d7-8cd4-4ab2-a532-8ed4529d1aeb",
+  "answer_bytes": 510,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 3,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

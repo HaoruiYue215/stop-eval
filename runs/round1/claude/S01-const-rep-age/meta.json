@@ -1,0 +1,54 @@
+{
+  "task": "S01-const-rep-age",
+  "vendor": "claude",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "431865b3a97a695ccc121c00cf90db10fbf8ddf27cd694a18e386cc55423114d",
+  "exit": 0,
+  "seconds": 33.23,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 46621,
+    "cached": 46016,
+    "output": 1241,
+    "cache_write": 0
+  },
+  "cost_usd": 0.08269396,
+  "gate_fired": false,
+  "event_types": {
+    "system": 620,
+    "assistant": 11,
+    "user": 4,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "0e134e78-48fd-4298-b8f4-4c9590e55a01",
+  "answer_bytes": 958,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "没读完或过早作答",
+  "files_read": [
+    "article-i.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 4,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

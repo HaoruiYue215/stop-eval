@@ -1,0 +1,62 @@
+{
+  "task": "S24-msft-revenue-2025-06-30",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "9fa42cf35a67aeebc48d59a3744f9f09c17f6bbb19992c91d9a809aff5f00f17",
+  "exit": 125,
+  "seconds": 150.15,
+  "killed": "tool-cap",
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 49313,
+    "cached": 97920,
+    "output": 6243,
+    "cache_write": 0
+  },
+  "cost_usd": 0.1219666,
+  "gate_fired": true,
+  "event_types": {
+    "system": 5882,
+    "assistant": 33,
+    "user": 12,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "0ff105c9-2b09-46b1-b896-62e745c055c0",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "空转或工具报错",
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 13,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Bash",
+    "Bash",
+    "Write",
+    "Bash",
+    "Bash",
+    "Bash",
+    "Write",
+    "Write",
+    "Write"
+  ]
+}

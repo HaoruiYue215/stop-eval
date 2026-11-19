@@ -1,0 +1,59 @@
+{
+  "task": "S24-msft-revenue-2025-06-30",
+  "vendor": "kimi",
+  "round": "round2-rerun",
+  "kind": "stop",
+  "prompt_sha256": "9fa42cf35a67aeebc48d59a3744f9f09c17f6bbb19992c91d9a809aff5f00f17",
+  "exit": 124,
+  "seconds": 180.5,
+  "killed": "timeout",
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 6882,
+    "cached": 92672,
+    "output": 3247,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0647684,
+  "gate_fired": true,
+  "event_types": {
+    "system.version": 2,
+    "turn.step.retrying": 11,
+    "?": 15,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "[\n  {\n    \"start\": \"2024-07-01\",\n    \"end\": \"2025-06-30\",\n    \"val\": 281724000000,\n    \"accn\": \"0000950170-25-100235\",\n    \"fy\": 2025,\n    \"fp\": \"FY\",\n    \"form\": \"10-K\",\n    \"filed\": \"2025-07-30\"\n  },\n  {\n    \"start\": \"2024-07-01\",\n    \"end\": \"2025-06-30\",\n    \"val\": 281724000000,\n    \"accn\": \"0001193125-26-323660\",\n    \"fy\": 2026,\n    \"fp\": \"FY\",\n    \"form\": \"10-K\",\n    \"filed\": \"2026-07-29\",\n    \"frame\": \"CY2025\"\n  }\n]\n",
+  "session_id": "session_6e765f40-f2dc-4c73-a512-43cec1e6c578",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "measure_mark": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 9,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Bash",
+    "Write",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Glob"
+  ]
+}

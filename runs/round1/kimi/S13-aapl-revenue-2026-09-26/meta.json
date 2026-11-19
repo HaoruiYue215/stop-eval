@@ -1,0 +1,50 @@
+{
+  "task": "S13-aapl-revenue-2026-09-26",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "a11b6ef4855c1151a1883a179b45061cb5e192014d9c0a2d4f94e8e5576a6d02",
+  "exit": 0,
+  "seconds": 23.88,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 15612,
+    "cached": 29184,
+    "output": 764,
+    "cache_write": 0
+  },
+  "cost_usd": 0.044700800000000006,
+  "event_types": {
+    "system.version": 1,
+    "?": 6,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_cf67e18a-eb1e-42fd-a66d-6ea8f4afbd33",
+  "answer_bytes": 351,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 3,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

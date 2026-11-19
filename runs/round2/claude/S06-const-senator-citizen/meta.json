@@ -1,0 +1,64 @@
+{
+  "task": "S06-const-senator-citizen",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "b4e55b1bc72da6c1bf0f69ce49c2f5a7b97eace138bc85a934ca12fa27740526",
+  "exit": 125,
+  "seconds": 101.54,
+  "killed": "tool-cap",
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 100380,
+    "cached": 98880,
+    "output": 3173,
+    "cache_write": 0
+  },
+  "cost_usd": 0.180202,
+  "gate_fired": true,
+  "event_types": {
+    "system": 3003,
+    "assistant": 36,
+    "user": 12,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "d08e3692-0b78-4b3c-b98a-beb46e1b4ccc",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "files_read": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 13,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Bash",
+    "Read",
+    "Read",
+    "ToolSearch",
+    "WebFetch",
+    "Read",
+    "Write",
+    "Bash",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}

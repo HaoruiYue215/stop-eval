@@ -1,0 +1,63 @@
+{
+  "task": "S03-const-two-senators",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "2ae8135e573d1df18ab905df6743d357796054981b1a84031c095343d9080e1a",
+  "exit": 0,
+  "seconds": 140.32,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 3074,
+    "cached": 150400,
+    "output": 2533,
+    "cache_write": 0
+  },
+  "cost_usd": 0.054552800000000005,
+  "gate_fired": true,
+  "event_types": {
+    "system": 3980,
+    "assistant": 31,
+    "user": 12,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "e5525efd-572c-4c38-bcb3-853c7d6e9df3",
+  "answer_bytes": 1684,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "files_read": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 12,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Bash",
+    "Bash",
+    "Bash",
+    "Write",
+    "Bash",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "task": "S18-aapl-debt-2026-09-26",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "c9fdf45f241f0702a07fecc7558a952ab9013b6493cc21839c4648efb646598a",
+  "exit": 0,
+  "seconds": 93.95,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 3140,
+    "cached": 125312,
+    "output": 2183,
+    "cache_write": 0
+  },
+  "cost_usd": 0.04658232000000001,
+  "gate_fired": true,
+  "event_types": {
+    "system": 2086,
+    "assistant": 24,
+    "user": 8,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "d7436329-431e-4360-b9d9-0870a011c49e",
+  "answer_bytes": 1511,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 8,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write",
+    "Bash",
+    "Write",
+    "Edit",
+    "Write"
+  ]
+}

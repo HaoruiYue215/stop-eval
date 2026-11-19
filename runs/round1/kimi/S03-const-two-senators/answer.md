@@ -1,0 +1,1 @@
+仅凭 `input/` 中的宪法誊录，无法确定每州选出几名参议员进入参议院：依据 `input/article-i.md`（Article I, Section 3），关键句写作 “The Senate of the United States shall be composed of  from each State, chosen by the Legislature thereof, for six Years; and each Senator shall have one Vote.”，其中每州参议员名额的文字缺失；`input/article-ii.md` 只说明各州选举人人数等于该州参议员与众议员人数之和，同样未给出参议员的具体名额，因此不能仅据这些材料得出“两名”的结论。

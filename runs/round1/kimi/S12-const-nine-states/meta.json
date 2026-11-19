@@ -1,0 +1,56 @@
+{
+  "task": "S12-const-nine-states",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "5dfa12269597f9e0a0d58ebb7c2fa9916509c7d39665dea5cdfdaa145d07ff7b",
+  "exit": 0,
+  "seconds": 55.95,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 10653,
+    "cached": 63744,
+    "output": 1641,
+    "cache_write": 0
+  },
+  "cost_usd": 0.050464800000000004,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 9,
+    "turn.step.retrying": 3,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_39c85761-ebdb-40b9-a943-aae9cc1cdaa1",
+  "answer_bytes": 682,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "files_read": [
+    "article-vi.md",
+    "article-vii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-vi.md",
+    "article-vii.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 5,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Read",
+    "FetchURL",
+    "Write"
+  ]
+}

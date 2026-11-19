@@ -1,0 +1,65 @@
+{
+  "task": "S31-msft-shares-2026-06-30",
+  "vendor": "dsh",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "e4006bd5248dbbce7ba804385543a753291643b806a85cb668446f0f60cc4f01",
+  "exit": 125,
+  "seconds": 33.74,
+  "killed": "tool-cap",
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 5580,
+    "cached": 117120,
+    "output": 4930,
+    "cache_write": 0
+  },
+  "cost_usd": 0.004146360000000001,
+  "gate_fired": true,
+  "event_types": {
+    "session": 2,
+    "status": 26,
+    "thinking": 12,
+    "text": 4,
+    "tool_call": 13,
+    "tool_result": 12,
+    "final": 1
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-920ff1b4-119c-48f7-8f52-94902c7a45be",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "空转或工具报错",
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 13,
+  "tool_names": [
+    "bash",
+    "read",
+    "read",
+    "bash",
+    "bash",
+    "bash",
+    "write",
+    "read",
+    "bash",
+    "bash",
+    "read",
+    "read",
+    "write"
+  ]
+}

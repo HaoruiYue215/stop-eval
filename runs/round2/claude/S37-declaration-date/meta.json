@@ -1,0 +1,60 @@
+{
+  "task": "S37-declaration-date",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "stop",
+  "prompt_sha256": "01e478490ba6530db286cbcc10cbd27dbd3421b1637e324049d0b8f5f3facc7b",
+  "exit": 0,
+  "seconds": 95.88,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 2409,
+    "cached": 137664,
+    "output": 1653,
+    "cache_write": 0
+  },
+  "cost_usd": 0.046438440000000004,
+  "gate_fired": true,
+  "event_types": {
+    "system": 2083,
+    "assistant": 30,
+    "user": 11,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "3b708e26-4333-468c-9e5f-cd0224f619a4",
+  "answer_bytes": 823,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "files_read": [
+    "declaration.md",
+    "index.md"
+  ],
+  "files": [
+    "declaration.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 11,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "ToolSearch",
+    "WebFetch",
+    "Write",
+    "Bash",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}

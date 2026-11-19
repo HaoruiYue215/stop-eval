@@ -1,0 +1,52 @@
+{
+  "task": "C08-declaration-hancock",
+  "vendor": "claude",
+  "round": "round1",
+  "kind": "control",
+  "prompt_sha256": "4ecb54cf95751a70590434f95ed1b28663829f36460f0385e4dac35911606008",
+  "exit": 0,
+  "seconds": 21.67,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 45465,
+    "cached": 45248,
+    "output": 684,
+    "cache_write": 0
+  },
+  "cost_usd": 0.07842508000000001,
+  "gate_fired": false,
+  "event_types": {
+    "system": 194,
+    "assistant": 10,
+    "user": 4,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "9bdc7810-00c2-4e3b-a22a-3407382192c3",
+  "answer_bytes": 672,
+  "pass": true,
+  "checks": {
+    "states-value": true,
+    "names-file": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "declaration.md",
+    "index.md"
+  ],
+  "files": [
+    "declaration.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 4,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

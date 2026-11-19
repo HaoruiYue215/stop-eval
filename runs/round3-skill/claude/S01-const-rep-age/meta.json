@@ -1,0 +1,58 @@
+{
+  "task": "S01-const-rep-age",
+  "vendor": "claude",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "431865b3a97a695ccc121c00cf90db10fbf8ddf27cd694a18e386cc55423114d",
+  "exit": 0,
+  "seconds": 74.47,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 29071,
+    "cached": 122624,
+    "output": 2922,
+    "cache_write": 0
+  },
+  "cost_usd": 0.08543844,
+  "gate_fired": false,
+  "event_types": {
+    "system": 1857,
+    "assistant": 16,
+    "user": 6,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "c98d2c6e-6752-4d95-8469-e976b8edd90f",
+  "answer_bytes": 954,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-ii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 6,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Read",
+    "Write",
+    "Write"
+  ]
+}

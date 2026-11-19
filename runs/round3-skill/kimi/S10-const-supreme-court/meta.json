@@ -1,0 +1,55 @@
+{
+  "task": "S10-const-supreme-court",
+  "vendor": "kimi",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "0028c9864480b2d4bd1d5be4df6f83ad95b54c67feffc002108112b5fe7524a2",
+  "exit": 0,
+  "seconds": 49.27,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 4378,
+    "cached": 40704,
+    "output": 1349,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0303868,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 7,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_b85bc0f3-e483-42cc-8d38-9912ac171a81",
+  "answer_bytes": 491,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 4,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

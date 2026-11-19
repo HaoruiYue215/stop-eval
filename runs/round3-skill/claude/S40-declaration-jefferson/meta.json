@@ -1,0 +1,52 @@
+{
+  "task": "S40-declaration-jefferson",
+  "vendor": "claude",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "4b33407c31ce852f9e12d9a7efd0a10efc1d1ea239cf9f07a5664c1bad4b4d9c",
+  "exit": 124,
+  "seconds": 180.4,
+  "killed": "timeout",
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": null,
+  "cost_usd": null,
+  "gate_fired": false,
+  "event_types": {
+    "system": 7101,
+    "assistant": 15,
+    "user": 8
+  },
+  "stderr_tail": "",
+  "session_id": "2df89224-6f90-4c6f-95cf-e556ca61fa10",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "空转或工具报错",
+  "measure_mark": null,
+  "files_read": [
+    "declaration.md",
+    "index.md"
+  ],
+  "files": [
+    "declaration.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 8,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Bash",
+    "Bash",
+    "Bash",
+    "Bash"
+  ]
+}

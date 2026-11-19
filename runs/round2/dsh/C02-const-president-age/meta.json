@@ -1,0 +1,66 @@
+{
+  "task": "C02-const-president-age",
+  "vendor": "dsh",
+  "round": "round2",
+  "kind": "control",
+  "prompt_sha256": "773b1331a6d807f211a1d82eecfe2df8e0e44fe76d1cc4f0276cfe0faa173d02",
+  "exit": 125,
+  "seconds": 20.62,
+  "killed": "tool-cap",
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 5453,
+    "cached": 95232,
+    "output": 2700,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0027236459999999997,
+  "gate_fired": true,
+  "event_types": {
+    "session": 2,
+    "status": 22,
+    "thinking": 10,
+    "tool_call": 13,
+    "tool_result": 12,
+    "text": 1,
+    "final": 1
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-5464ec2a-4ee7-452d-b4da-2acfe07f2a82",
+  "answer_bytes": 1135,
+  "pass": true,
+  "checks": {
+    "states-value": true,
+    "names-file": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 13,
+  "tool_names": [
+    "bash",
+    "read",
+    "read",
+    "read",
+    "write",
+    "bash",
+    "read",
+    "glob",
+    "bash",
+    "bash",
+    "write",
+    "write",
+    "bash"
+  ]
+}

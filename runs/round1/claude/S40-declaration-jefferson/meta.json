@@ -1,0 +1,57 @@
+{
+  "task": "S40-declaration-jefferson",
+  "vendor": "claude",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "4b33407c31ce852f9e12d9a7efd0a10efc1d1ea239cf9f07a5664c1bad4b4d9c",
+  "exit": 0,
+  "seconds": 69.26,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 48675,
+    "cached": 149248,
+    "output": 2845,
+    "cache_write": 0
+  },
+  "cost_usd": 0.11946748000000001,
+  "gate_fired": false,
+  "event_types": {
+    "system": 1728,
+    "assistant": 20,
+    "user": 8,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "2a014227-f67f-464d-a8f9-d827ff8049b9",
+  "answer_bytes": 1186,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "files_read": [
+    "declaration.md",
+    "index.md"
+  ],
+  "files": [
+    "declaration.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 8,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Bash",
+    "ToolSearch",
+    "WebFetch",
+    "Write"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "task": "S28-msft-debt-2026-06-30",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "5a78d09b2da845da01603c0980f1990f1ec329b9464819d3409e0a360e05fb9e",
+  "exit": 0,
+  "seconds": 26.66,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 3239,
+    "cached": 41472,
+    "output": 727,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0220424,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 6,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_59e748a7-e603-4ec9-93fd-e0faa5dd04ec",
+  "answer_bytes": 283,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 3,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

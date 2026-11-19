@@ -1,0 +1,47 @@
+{
+  "captured": "2026-11-12",
+  "files": [
+    {
+      "file": "constitution.html",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "sha256": "a5dd177a18a8b06371ec1e5a7ff84f1510c09579e2b76c8b20204ca9b6c5bfdd",
+      "bytes": 70555
+    },
+    {
+      "file": "declaration.html",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "sha256": "dc5022f45bc9eec2c1a4f397827a8df0c17fcbca3c6b7655ad0ac5d6d2b38571",
+      "bytes": 48690
+    },
+    {
+      "file": "fomc.html",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "sha256": "8aa44b23d5071083eccf90ef0924ea5354e3ec9faf2ed19ce1577f29dcd159ed",
+      "bytes": 82812
+    },
+    {
+      "file": "aapl-facts.json",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+      "sha256": "f085735b4d08fb116ade18d24247ffabe11df8eb52eae6556b165831f15ef1ad",
+      "bytes": 3859564
+    },
+    {
+      "file": "msft-facts.json",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "sha256": "8c1903c041f5c27e86ed15f37debb1f41882b7904bba129ef9edc76478b1e8ea",
+      "bytes": 4938072
+    },
+    {
+      "file": "rfc9110.txt",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.txt",
+      "sha256": "21c1cdce6ab0e5509b04d84a28000836c7a087cf786efe6f04877ebfff47232a",
+      "bytes": 502941
+    },
+    {
+      "file": "rfc9112.txt",
+      "url": "https://www.rfc-editor.org/rfc/rfc9112.txt",
+      "sha256": "e4f426bac6206b67fdf9e0da826154f70588db2133a0a86b15cde4ff725d8937",
+      "bytes": 109913
+    }
+  ]
+}

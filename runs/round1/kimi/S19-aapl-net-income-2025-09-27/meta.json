@@ -1,0 +1,52 @@
+{
+  "task": "S19-aapl-net-income-2025-09-27",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "9d5427145fc9e0c657dc07bddb2166d3fa6de1f3d7480e5c0470a5f5a1f9de99",
+  "exit": 0,
+  "seconds": 23.34,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 3141,
+    "cached": 41472,
+    "output": 639,
+    "cache_write": 0
+  },
+  "cost_usd": 0.020966400000000003,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "turn.step.retrying": 4,
+    "?": 6,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_4df08174-4c7c-4414-a6b0-4e6d9d47a603",
+  "answer_bytes": 288,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 3,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

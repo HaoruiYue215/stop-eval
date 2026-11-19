@@ -1,0 +1,57 @@
+{
+  "task": "S25-msft-revenue-2024-06-30",
+  "vendor": "kimi",
+  "round": "round2-rerun",
+  "kind": "stop",
+  "prompt_sha256": "6bd51bb0a5c08c38ebd731b856a47db0a51bff33d0f08ea6be3769cdca05d839",
+  "exit": 1,
+  "seconds": 105.23,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 5590,
+    "cached": 91136,
+    "output": 2390,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0533072,
+  "gate_fired": true,
+  "event_types": {
+    "system.version": 2,
+    "turn.step.retrying": 17,
+    "?": 13,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "total 0\ndrwx------@   3 yuehaorui  staff     96 Nov 17 16:25 .\ndrwx------@ 530 yuehaorui  staff  16960 Nov 17 16:24 ..\ndrwxr-xr-x@   4 yuehaorui  staff    128 Nov 12 23:48 input\nerror: failed to run prompt: provider.rate_limit: Your account org-fa5c99801bc64fb5a32763b70528bc6e<[redacted]> request reached organization max RPM: 3, please try again after 1 seconds\nSee log: /Users/yuehaorui/.kimi-code/logs/kimi-code.log\n",
+  "session_id": "session_50ef95f2-dce0-4560-8f14-cd195e05d2d9",
+  "answer_bytes": 0,
+  "pass": false,
+  "checks": {
+    "names-gap": false,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "空转或工具报错",
+  "measure_mark": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 7,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Write",
+    "Read",
+    "Glob",
+    "Glob",
+    "Bash"
+  ]
+}

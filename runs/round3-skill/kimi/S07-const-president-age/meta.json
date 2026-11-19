@@ -1,0 +1,56 @@
+{
+  "task": "S07-const-president-age",
+  "vendor": "kimi",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "773b1331a6d807f211a1d82eecfe2df8e0e44fe76d1cc4f0276cfe0faa173d02",
+  "exit": 0,
+  "seconds": 53.29,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 10406,
+    "cached": 62464,
+    "output": 1505,
+    "cache_write": 0
+  },
+  "cost_usd": 0.0483548,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 9,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_30ab76f6-465a-4ec9-9a92-92d12ca7229b",
+  "answer_bytes": 436,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": false
+  },
+  "primary_label": "工具不该这么接",
+  "tool_bucket": "上网",
+  "measure_mark": null,
+  "files_read": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": true,
+  "steps": 5,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Read",
+    "FetchURL",
+    "Write"
+  ]
+}

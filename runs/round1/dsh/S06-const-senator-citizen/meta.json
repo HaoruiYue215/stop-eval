@@ -1,0 +1,61 @@
+{
+  "task": "S06-const-senator-citizen",
+  "vendor": "dsh",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "b4e55b1bc72da6c1bf0f69ce49c2f5a7b97eace138bc85a934ca12fa27740526",
+  "exit": 0,
+  "seconds": 14.06,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 6685,
+    "cached": 55296,
+    "output": 1678,
+    "cache_write": 0
+  },
+  "cost_usd": 0.002175438,
+  "gate_fired": false,
+  "event_types": {
+    "session": 1,
+    "status": 14,
+    "thinking": 6,
+    "tool_call": 7,
+    "tool_result": 7,
+    "text": 1,
+    "final": 1
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-b3ba8073-7fe8-4771-96f9-22d20f95c26c",
+  "answer_bytes": 1173,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "files_read": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 7,
+  "tool_names": [
+    "bash",
+    "read",
+    "read",
+    "read",
+    "bash",
+    "bash",
+    "write"
+  ]
+}

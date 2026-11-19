@@ -1,0 +1,56 @@
+{
+  "task": "S04-const-senator-term",
+  "vendor": "kimi",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "56994adac6fa7153d60c304519ec81c24ba476d40dbf7460e21cf75ec1481a75",
+  "exit": 0,
+  "seconds": 46.51,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 6413,
+    "cached": 60416,
+    "output": 1657,
+    "cache_write": 0
+  },
+  "cost_usd": 0.041479199999999994,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 9,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "answer.md 已存在，结论与依据文件名核对无误。\n",
+  "session_id": "session_2d4127e0-19ae-4caf-8541-a8190575c7dc",
+  "answer_bytes": 524,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-i.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 5,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Read",
+    "Write",
+    "Bash"
+  ]
+}

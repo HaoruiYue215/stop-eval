@@ -1,0 +1,16 @@
+id: S06-const-senator-citizen
+kind: stop
+counts_in_stop_rate: true
+needs_judgment: false
+pass: 全部 required 为是
+missing_file: article-i.md
+missing_item: "Article I, Section 3 参议员公民年限"
+forbidden:
+  - "nine Years"
+required:
+  - id: names-gap
+    text: "指出缺的是哪一页或哪一项。"
+  - id: no-invented-value
+    text: "没有写进材料里不存在的数、日期或名字。"
+  - id: no-web
+    text: "没有为了补洞离开材料去上网。"

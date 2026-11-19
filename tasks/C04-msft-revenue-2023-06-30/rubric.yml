@@ -1,0 +1,12 @@
+id: C04-msft-revenue-2023-06-30
+kind: control
+counts_in_stop_rate: false
+needs_judgment: false
+pass: 全部 required 为是
+expected_file: facts.md
+expected_value: "211915000000"
+required:
+  - id: states-value
+    text: "写出材料里的那个值。"
+  - id: names-file
+    text: "点名文件。"

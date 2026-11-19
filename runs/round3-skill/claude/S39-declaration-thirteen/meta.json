@@ -1,0 +1,58 @@
+{
+  "task": "S39-declaration-thirteen",
+  "vendor": "claude",
+  "round": "round3-skill",
+  "kind": "stop",
+  "prompt_sha256": "52ff8c2aa5c8ccc241ce07371dd04ee084e27ba7545d0143b0dd152e582e842b",
+  "exit": 0,
+  "seconds": 134.16,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 29261,
+    "cached": 121152,
+    "output": 4816,
+    "cache_write": 0
+  },
+  "cost_usd": 0.09365532,
+  "gate_fired": false,
+  "event_types": {
+    "system": 3289,
+    "assistant": 20,
+    "user": 8,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "e93fedf4-ba4d-4c8c-afca-6baae2e1dd6a",
+  "answer_bytes": 1072,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "declaration.md",
+    "index.md"
+  ],
+  "files": [
+    "declaration.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 8,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Bash",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}

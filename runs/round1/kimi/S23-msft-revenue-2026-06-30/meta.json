@@ -1,0 +1,51 @@
+{
+  "task": "S23-msft-revenue-2026-06-30",
+  "vendor": "kimi",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "0be0db2e6a02e7096fd4daf8b322630e7cc681f2801f46acfcd56e9066936f47",
+  "exit": 0,
+  "seconds": 29.55,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "kimi-k3.1-pro",
+  "usage": {
+    "input": 3454,
+    "cached": 41472,
+    "output": 925,
+    "cache_write": 0
+  },
+  "cost_usd": 0.024452400000000003,
+  "gate_fired": false,
+  "event_types": {
+    "system.version": 1,
+    "?": 6,
+    "session.resume_hint": 1
+  },
+  "stderr_tail": "",
+  "session_id": "session_24ed2b17-1556-4555-a9e3-9538e358b0fa",
+  "answer_bytes": 372,
+  "pass": true,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": true,
+    "no-web": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "facts.md",
+    "index.md"
+  ],
+  "files": [
+    "facts.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 3,
+  "tool_names": [
+    "Read",
+    "Read",
+    "Write"
+  ]
+}

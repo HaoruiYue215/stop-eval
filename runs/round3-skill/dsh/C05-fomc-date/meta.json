@@ -1,0 +1,73 @@
+{
+  "task": "C05-fomc-date",
+  "vendor": "dsh",
+  "round": "round3-skill",
+  "kind": "control",
+  "prompt_sha256": "db47fd9911db95ccc42324a1482a66d4b17576ca94b2253318f88d3a98754371",
+  "exit": 0,
+  "seconds": 10.4,
+  "killed": null,
+  "raw_model": null,
+  "priced_model": "deepseek-flash",
+  "usage": {
+    "input": 3930,
+    "cached": 47744,
+    "output": 1260,
+    "cache_write": 0
+  },
+  "cost_usd": 0.001488732,
+  "gate_fired": false,
+  "event_types": {
+    "session": 1,
+    "status": 14,
+    "thinking": 6,
+    "text": 2,
+    "tool_call": 11,
+    "tool_result": 11,
+    "final": 1
+  },
+  "stderr_tail": "[llm-deepseek-api-key] model listing from https://api.deepseek.com/models loaded 2 model(s), skipped 0 row(s)\n",
+  "session_id": "session-498fc4e6-33cd-465a-9640-d80a64c7a1ec",
+  "answer_bytes": 729,
+  "pass": true,
+  "checks": {
+    "states-value": true,
+    "names-file": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "measure_mark": null,
+  "files_read": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "files": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "web": false,
+  "steps": 11,
+  "tool_names": [
+    "bash",
+    "read",
+    "read",
+    "read",
+    "read",
+    "read",
+    "read",
+    "read",
+    "read",
+    "write",
+    "write"
+  ]
+}

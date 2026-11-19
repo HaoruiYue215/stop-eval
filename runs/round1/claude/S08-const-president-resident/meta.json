@@ -1,0 +1,58 @@
+{
+  "task": "S08-const-president-resident",
+  "vendor": "claude",
+  "round": "round1",
+  "kind": "stop",
+  "prompt_sha256": "416393027ceb659f49b369c42866afa076b678bd9d3de856c544ef2ecb7f6d58",
+  "exit": 0,
+  "seconds": 38.17,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 46520,
+    "cached": 92608,
+    "output": 1757,
+    "cache_write": 0
+  },
+  "cost_usd": 0.09693687999999999,
+  "gate_fired": false,
+  "event_types": {
+    "system": 835,
+    "assistant": 15,
+    "user": 7,
+    "result": 1
+  },
+  "stderr_tail": "",
+  "session_id": "d6d35d7e-16ab-468d-9379-6961aef8eca3",
+  "answer_bytes": 1274,
+  "pass": false,
+  "checks": {
+    "names-gap": true,
+    "no-invented-value": false,
+    "no-web": true
+  },
+  "primary_label": "模型不会",
+  "tool_bucket": null,
+  "files_read": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "files": [
+    "article-ii.md",
+    "article-iii.md",
+    "index.md"
+  ],
+  "web": false,
+  "steps": 7,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Bash",
+    "Read",
+    "Bash",
+    "Write"
+  ]
+}

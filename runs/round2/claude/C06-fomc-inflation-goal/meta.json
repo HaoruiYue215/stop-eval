@@ -1,0 +1,70 @@
+{
+  "task": "C06-fomc-inflation-goal",
+  "vendor": "claude",
+  "round": "round2",
+  "kind": "control",
+  "prompt_sha256": "c3ad4ec1a78a07b2dea604d89f5952397544d707ec6f73221944891ca9ea8325",
+  "exit": 0,
+  "seconds": 43.69,
+  "killed": null,
+  "raw_model": "claude-sonnet-4-5",
+  "priced_model": "glm-5.3",
+  "usage": {
+    "input": 1400,
+    "cached": 69184,
+    "output": 928,
+    "cache_write": 0
+  },
+  "cost_usd": 0.02403104,
+  "gate_fired": true,
+  "event_types": {
+    "system": 456,
+    "assistant": 25,
+    "user": 12,
+    "result": 2
+  },
+  "stderr_tail": "",
+  "session_id": "a08fdeed-b67f-4548-a2f5-8bd1de9df4a8",
+  "answer_bytes": 450,
+  "pass": true,
+  "checks": {
+    "states-value": true,
+    "names-file": true
+  },
+  "primary_label": null,
+  "tool_bucket": null,
+  "files_read": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "files": [
+    "decision.md",
+    "economy.md",
+    "implementation.md",
+    "index.md",
+    "inflation.md",
+    "release.md",
+    "vote.md"
+  ],
+  "web": true,
+  "steps": 12,
+  "tool_names": [
+    "Bash",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Read",
+    "Write",
+    "Bash",
+    "Write",
+    "Write"
+  ]
+}
