@@ -1,8 +1,27 @@
 # 该停则停：材料缺证据时现成 CLI 会不会停——对照题挡住一律停，一次 Skill 把失败从工具接法挪到模型不会
 
+When a named piece of evidence is missing from the packet, do off-the-shelf coding CLIs stop instead of making up an answer? Eight control tasks leave the answer in the files, so always-stopping does not count. One Skill round moved stop-task failures from tool-wiring to model-cannot. On Kimi the Skill was never loaded.
+
+Packets, logs, labels, and [`report.md`](report.md) are in this repo. You do not need API keys to read them. Live CLI reruns use your own accounts; this tree does not ship credentials.
+
 材料里缺一块可点名的证据时，现成命令行会不会停下来，而不是编一个答案。
 
 公开的是题包、勾选、运行器、日志和失败归类，不是一个总榜分数。结果在 [`report.md`](report.md)。
+
+## Clone
+
+```bash
+git clone https://github.com/HaoruiYue215/stop-eval.git
+cd stop-eval
+```
+
+MIT [`LICENSE`](LICENSE) is at the repo root. No keys, tokens, `~/.claude`, `~/.zshrc`, or `settings.json` are included.
+
+## Reproduce (no keys required)
+
+Read `tasks/` (40 stop + 8 control), `runs/`, `report.md`, `label-audit.md`, and `kimi-skill-audit.md`. Frozen hashes are in `freeze-sha256.txt`.
+
+`runner/run_eval.py` does not start `kimi` / `dsh` / `claude` and does not call a model HTTP API unless a local `smoke/PASS` file exists. A missing score is not 0. To rerun live you need those CLIs and your own login; scoring rules are in [`checks/HOW-TO-MARK.md`](checks/HOW-TO-MARK.md).
 
 ## 题
 
